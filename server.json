@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.pipeworx-io/entreprises-fr",
+  "title": "Entreprises Fr",
+  "description": "French Companies MCP — recherche-entreprises.api.gouv.fr",
+  "version": "0.1.0",
+  "websiteUrl": "https://pipeworx.io/packs/entreprises-fr",
+  "repository": {
+    "url": "https://github.com/pipeworx-io/mcp-entreprises-fr",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gateway.pipeworx.io/entreprises-fr/mcp"
+    }
+  ]
+}

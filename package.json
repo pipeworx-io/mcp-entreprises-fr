@@ -1,0 +1,20 @@
+{
+  "name": "@pipeworx/mcp-entreprises-fr",
+  "version": "0.1.0",
+  "description": "French Companies MCP — recherche-entreprises.api.gouv.fr",
+  "type": "module",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "entreprises-fr"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pipeworx-io/mcp-entreprises-fr"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.0"
+  }
+}
