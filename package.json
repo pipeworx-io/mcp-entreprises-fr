@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-entreprises-fr",
-  "version": "0.1.4",
+  "version": "0.2.0",
   "description": "French Companies MCP — recherche-entreprises.api.gouv.fr",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-entreprises-fr": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "entreprises-fr"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-entreprises-fr.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/entreprises-fr",
   "pipeworx": {
-    "sourceHash": "v1-5d428b07fba3aea31c75d2cd9b13cadd75811c8857510f01fb9f9d6557ab7884",
-    "sourceCommit": "722087a9bda73f85942e8f6bbfd598544cb0d490"
+    "mode": "gateway",
+    "slug": "entreprises-fr",
+    "gatewaySlug": "entreprises-fr",
+    "sourceHash": "v1-a7636d1ec388afa6007559e0f6c62daf4f6192817429ec3101ad60fa2db33296",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }
