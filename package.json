@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-entreprises-fr",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "French Companies MCP — recherche-entreprises.api.gouv.fr",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "entreprises-fr",
     "gatewaySlug": "entreprises-fr",
-    "sourceHash": "v1-a7636d1ec388afa6007559e0f6c62daf4f6192817429ec3101ad60fa2db33296",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-f685ba255d74730b551717d8302a090f5ea5f5637a74dcd342a7a8ad8b3e92d8",
+    "sourceCommit": "d35e32c1ffe988e24d391dedb35666387fd2b3d6"
   }
 }
